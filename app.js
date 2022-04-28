@@ -19,11 +19,16 @@ function reverseString(str) {
 }
 // console.log(reverseString("chaitra"));
 
-
 // 2. Print all even numbers between 0 and 10
 
-    for(let i = 0; i <= 100; i++) {
-        if(i % 2 === 0) {
-            console.log(i);
-        }
-    }
+   for( let i = 0; i <=10; i++) {
+       if( i % 2 === 0 ) {
+        //    console.log(i);
+       }
+   }
+
+// Print multiplication table of 3
+let num = 3;
+for(let i=1; i<=10; i++) {
+    console.log(`${num} * ${i} = `, num*i);
+}
